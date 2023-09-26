@@ -14,11 +14,11 @@ no código e consertá-los mais facilmente e com maior rapidez
 - Má utilização do "catch", sem fazer o tratamento correto da Exception e sem ao menos utilizar o "e.printStackTrace()"
 - Péssima organização e práticas de código, como por exemplo utilizando 3 vezes a variável "sql" para construir o select
 - Variáveis sem nomenclatura adequada, trazendo uma legibilidade ruim e consequentemente prejudicando a manutenibilidade do código
-- Não houve uma tratação correta para evitar "NullPointerException", ela ocorrerá devido a má implementação da variável "conn", que pode permanecer nula e consequentemente gerar a exception
-- Não há documentação do código e nem acesso a classe de conexão ao banco de dados, prejudicando a manutenibilidade e entendimento do código
+- Não houve uma tratação correta para evitar "NullPointerException", ela ocorrerá devido a má implementação da variável "conn", que pode permanecer nula e consequentemente gerar a Exception
+- Não há documentação do código e nem acesso a classe de conexão ao banco de dados, prejudicando novamente a manutenibilidade e entendimento do código
 
 # Requisitos
-Projeto feito em Java utilizando JDK versão 20, não é possivel rodá-lo devido aos erros de código
+Projeto feito em Java utilizando JDK versão 20 e IDE Eclipse, não é possivel rodá-lo devido aos erros de código
 
 # Contato
 E-mail: cauasilva8@gmail.com
