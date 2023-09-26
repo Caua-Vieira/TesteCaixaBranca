@@ -12,7 +12,7 @@ no código e consertá-los mais facilmente e com maior rapidez
 - O código abre a conexão com o banco de dados e não fecha. Na linha 23, com a conexão ainda aberta, é utilizado novamente o método "conectarBD()"
 - Uso incorreto do "conn" no método "verificarUsuario"
 - Má utilização do "catch", sem fazer o tratamento correto da Exception e sem ao menos utilizar o "e.printStackTrace()"
-- Péssima organização e práticas de código, utilizando 3 vezes a variável "sql" para construir o select
+- Péssima organização e práticas de código, como por exemplo utilizando 3 vezes a variável "sql" para construir o select
 - Variáveis sem nomenclatura adequada, trazendo uma legibilidade ruim e consequentemente má manutenibilidade do código
 - Não houve uma tratação correta para evitar "NullPointerException", ela ocorrerá devido a má utilização da variável "conn", que pode permanecer nula
 - Não há documentação do código e nem acesso a classe de conexão ao banco de dados, prejudicando a manutenibilidade e entendimento do código
