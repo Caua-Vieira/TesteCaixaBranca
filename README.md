@@ -13,8 +13,8 @@ no código e consertá-los mais facilmente e com maior rapidez
 - Uso incorreto do "conn" no método "verificarUsuario"
 - Má utilização do "catch", sem fazer o tratamento correto da Exception e sem ao menos utilizar o "e.printStackTrace()"
 - Péssima organização e práticas de código, como por exemplo utilizando 3 vezes a variável "sql" para construir o select
-- Variáveis sem nomenclatura adequada, trazendo uma legibilidade ruim e consequentemente má manutenibilidade do código
-- Não houve uma tratação correta para evitar "NullPointerException", ela ocorrerá devido a má utilização da variável "conn", que pode permanecer nula
+- Variáveis sem nomenclatura adequada, trazendo uma legibilidade ruim e consequentemente prejudicando a manutenibilidade do código
+- Não houve uma tratação correta para evitar "NullPointerException", ela ocorrerá devido a má implementação da variável "conn", que pode permanecer nula e consequentemente gerar a exception
 - Não há documentação do código e nem acesso a classe de conexão ao banco de dados, prejudicando a manutenibilidade e entendimento do código
 
 # Requisitos
