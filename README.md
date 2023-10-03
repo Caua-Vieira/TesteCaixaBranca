@@ -24,3 +24,10 @@ V(G) = 10 - 10 + 2.1
 Complexidade Ciclomática = 2
 
 ## Base de caminhos
+CAMINHO 1 = 1;2;3;4;5;6;7;8;9;10
+
+## Contato
+E-mail: cauasilva8@gmail.com
+
+## Colaboradores
+Professor Daniel Domingos Akira de Sa Pimentel Ohata e Centro universitário Facens
